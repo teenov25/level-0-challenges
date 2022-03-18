@@ -1,7 +1,7 @@
 function convertToTime (number){
 
-    var hours = Math.floor(number / 60); // returns whole integer
-    var minutes = number % 60; // finds the remainder
+    const hours = Math.floor(number / 60); // returns whole integer
+    const minutes = number % 60; // finds the remainder
 
     if (hours == 1 && minutes == 1){
 

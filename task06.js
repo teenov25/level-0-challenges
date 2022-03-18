@@ -1,6 +1,6 @@
 function findMaximumNumber (){
    //create an argument object to store parameter values 
-    var maximumNumber = arguments[0];
+    let maximumNumber = arguments[0];
 
     for (var i = 0; i < arguments.length;  i++){
         if (arguments[i] > maximumNumber ){
