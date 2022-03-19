@@ -8,5 +8,6 @@ function checkVowels(word){
         if (result == "a" || result == "e" || result == "i" || result == "o" || result == "u" ){
             tempArray.push(result)
             }
-    }console.log("Vowels: "+tempArray)
+    }console.log(`Vowels: ${tempArray}`)
 }  
+checkVowels("Tobey")

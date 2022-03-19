@@ -1,5 +1,5 @@
 function findMaximumNumber (){
-   //create an argument object to store parameter values 
+   //create an argument object to store multple parameter values 
     let maximumNumber = arguments[0];
 
     for (var i = 0; i < arguments.length;  i++){
@@ -8,6 +8,7 @@ function findMaximumNumber (){
         } 
     }
     return maximumNumber;
-    
 } 
+
+console.log(findMaximumNumber(12,17,3,5,9,90,67))
     
