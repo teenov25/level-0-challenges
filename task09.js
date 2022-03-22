@@ -1,5 +1,5 @@
 function checkVowels(word){
-    const word1  =Array.from(new Set(word.toLowerCase().split(''))); // created new set that lowers case and split parameter into sperate chararcters
+    const word1  =Array.from(new Set(word.toLowerCase().split(''))); 
     let result = 0;
     let tempArray =[]
 

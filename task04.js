@@ -1,8 +1,10 @@
 function evenOrOdd(number){
+    const evenResult = `"even"`;
+    const oddResult =`"odd"`;
     if (number % 2 === 0){
-        console.log(`"even"`);
+        return evenResult;
     }else {
-        console.log(`"odd"`);
+        return oddResult;
     }
 } 
 

@@ -1,10 +1,10 @@
 function convertToTime (number){
-    const hours = Math.floor(number / 60); // returns whole integer
-    const minutes = number % 60; // finds the remainder
+    const hours = Math.floor(number / 60); 
+    const minutes = number % 60; 
     
-    if (hours == 1 && minutes == 1){
-        return `"${hours}hour,${minutes}minute"`;
-    }else if (hours > 1 && minutes == 1){
+    if (hours === 1 && minutes <= 1){
+        return `"${hours}hour,${minutes} minute"`;
+    }else if (hours > 1 && minutes <= 1){
         return `"${hours} hours,${minutes} minute"`;
     }else if (hours == 1 && minutes > 1){
         return `"${hours} hour,${minutes} minutes"`;
@@ -12,4 +12,4 @@ function convertToTime (number){
         return `"${hours} hours,${minutes} minutes"`;
     }
 } 
-console.log(convertToTime(121))
+console.log(convertToTime(60))
