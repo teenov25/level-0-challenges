@@ -1,13 +1,13 @@
 function evenOrOdd(number){
-    const evenResult = `"even"`;
-    const oddResult =`"odd"`;
+    const evenResult = "even";
+    const oddResult ="odd";
     if (number % 2 === 0){
-        return evenResult;
+        console.log(evenResult);
     }else {
-        return oddResult;
+        console.log(oddResult);
     }
 } 
 
-console.log(evenOrOdd(43))
+evenOrOdd(43)
 
 
